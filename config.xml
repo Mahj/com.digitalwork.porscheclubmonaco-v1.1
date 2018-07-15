@@ -108,6 +108,6 @@
     <plugin name="cordova-plugin-ionic" spec="~4.1.7">
         <variable name="APP_ID" value="c7b617f5" />
         <variable name="CHANNEL_NAME" value="Master" />
-        <variable name="UPDATE_METHOD" value="auto" />
+        <variable name="UPDATE_METHOD" value="background" />
     </plugin>
 </widget>
