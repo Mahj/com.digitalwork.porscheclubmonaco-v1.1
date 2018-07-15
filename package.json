@@ -119,7 +119,12 @@
       },
       "cordova-plugin-camera": {},
       "cordova-plugin-x-toast": {},
-      "cordova-clipboard": {}
+      "cordova-clipboard": {},
+      "cordova-plugin-ionic": {
+        "APP_ID": "c7b617f5",
+        "CHANNEL_NAME": "Master",
+        "UPDATE_METHOD": "auto"
+      }
     },
     "platforms": [
       "android"

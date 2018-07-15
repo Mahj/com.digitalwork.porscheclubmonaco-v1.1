@@ -2,7 +2,7 @@
 <widget id="com.digitalwork.porscheclubmonaco" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Porsche Club Monaco</name>
     <description>Application Mobile Porsche Club Monaco.</description>
-        <author email="mahj.elattar@porscheclubmonaco.mc" href="http://www.porscheclubmonaco.mc">PCM DigitalWork Team</author>
+    <author email="mahj.elattar@porscheclubmonaco.mc" href="http://www.porscheclubmonaco.mc">PCM DigitalWork Team</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-navigation href="http://ionic.local/*" />
@@ -105,4 +105,9 @@
     <plugin name="cordova-plugin-camera" spec="^4.0.2" />
     <plugin name="cordova-plugin-x-toast" spec="^2.6.2" />
     <plugin name="cordova-clipboard" spec="^1.1.1" />
+    <plugin name="cordova-plugin-ionic" spec="~4.1.7">
+        <variable name="APP_ID" value="c7b617f5" />
+        <variable name="CHANNEL_NAME" value="Master" />
+        <variable name="UPDATE_METHOD" value="auto" />
+    </plugin>
 </widget>
